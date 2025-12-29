@@ -17,7 +17,7 @@ from typing import Any, Dict, Union
 
 import numpy as np
 import torch
-from transformers import AutoModelForAudioClassification, AutoFeatureExtractor
+from transformers import AutoFeatureExtractor, AutoModelForAudioClassification
 
 logger = logging.getLogger(__name__)
 

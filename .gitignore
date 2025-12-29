@@ -265,3 +265,9 @@ $RECYCLE.BIN/
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,python,jupyternotebooks
+
+
+wav2vec2-deepfake-voice-detector/
+model.tar.gz
+model/*.safetensors
+model/*.json
