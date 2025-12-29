@@ -1,8 +1,10 @@
 # Fine-Tuning Wav2Vec2 for Real-Time Deepfake Audio Detection
 
-Local and SageMaker deployment and inference of a Wav2Vec2 model fine-tuned to detect deepfake audio. Complete details can be found in the accompanying [Fine-Tuning Wav2Vec2 for Real-Time Deepfake Audio Detection](https://garystafford.medium.com/fine-tuning-wav2vec2-for-real-time-deepfake-audio-detection-b72d7efebdd7).
+Local and SageMaker deployment and inference of a Wav2Vec2 model fine-tuned to detect deepfake audio. Complete details can be found in the accompanying blog post: [Fine-Tuning Wav2Vec2 for Real-Time Deepfake Audio Detection](https://garystafford.medium.com/fine-tuning-wav2vec2-for-real-time-deepfake-audio-detection-b72d7efebdd7).
 
-Model: [garystafford/wav2vec2-deepfake-voice-detector](https://huggingface.co/garystafford/wav2vec2-deepfake-voice-detector)
+- Fine-tuned Model: [garystafford/wav2vec2-deepfake-voice-detector](https://huggingface.co/garystafford/wav2vec2-deepfake-voice-detector)
+- Base Model: [https://huggingface.co/Gustking/wav2vec2-large-xlsr-deepfake-audio-classification](https://huggingface.co/Gustking/wav2vec2-large-xlsr-deepfake-audio-classification)
+- Dataset: [garystafford/deepfake-audio-detection](https://huggingface.co/datasets/garystafford/deepfake-audio-detection)
 
 ## Create Python Virtual Environment
 
