@@ -17,7 +17,7 @@ from typing import Any, Dict, Union
 
 import numpy as np
 import torch
-from transformers import Wav2Vec2FeatureExtractor, Wav2Vec2ForSequenceClassification
+from transformers import AutoModelForAudioClassification, AutoFeatureExtractor
 
 logger = logging.getLogger(__name__)
 
@@ -50,11 +50,11 @@ class DeepfakeDetector:
         logger.info(f"Loading model from {artifact_dir}...")
 
         # Load local feature extractor without network calls
-        self.feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained(
+        self.feature_extractor = AutoFeatureExtractor.from_pretrained(
             artifact_dir,
             local_files_only=True,
         )
-        self.model = Wav2Vec2ForSequenceClassification.from_pretrained(
+        self.model = AutoModelForAudioClassification.from_pretrained(
             artifact_dir,
             local_files_only=True,
         ).to(self.device)
