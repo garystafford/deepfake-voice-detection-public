@@ -10,8 +10,7 @@
 
 This project demonstrates fine-tuning and deploying a Wav2Vec2 model for real-time deepfake audio detection. The model classifies audio samples as either real or AI-generated (fake) speech with high accuracy. You can run inference locally, in Google Colab, or deploy to AWS SageMaker for production use.
 
-Complete details can be found in the accompanying blog post: [Fine-Tuning Wav2Vec2 for Real-Time Deepfake Audio Detection](https://garystafford.medium.com/fine-tuning-wav2vec2-for-real-time-deepfake-audio-detection-b72d7efebdd7).
-
+- Accompanying Blog Post: [Fine-Tuning Wav2Vec2 for Real-Time Deepfake Audio Detection](https://garystafford.medium.com/fine-tuning-wav2vec2-for-real-time-deepfake-audio-detection-b72d7efebdd7).
 - Fine-tuned Model: [garystafford/wav2vec2-deepfake-voice-detector](https://huggingface.co/garystafford/wav2vec2-deepfake-voice-detector)
 - Base Model: [Gustking/wav2vec2-large-xlsr-deepfake-audio-classification](https://huggingface.co/Gustking/wav2vec2-large-xlsr-deepfake-audio-classification)
 - Dataset: [garystafford/deepfake-audio-detection](https://huggingface.co/datasets/garystafford/deepfake-audio-detection)
