@@ -5,7 +5,6 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
 ![Transformers](https://img.shields.io/badge/🤗%20Transformers-4.57+-yellow.svg)
 ![Hugging Face Model](https://img.shields.io/badge/🤗%20Model-wav2vec2-orange.svg)
-![AWS SageMaker](https://img.shields.io/badge/AWS-SageMaker-orange.svg)
 
 ## Overview
 
