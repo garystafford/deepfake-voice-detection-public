@@ -1,5 +1,5 @@
-boto3==1.42.16
-sagemaker==2.255.0
+boto3==1.42.17
+sagemaker==2.255.0 # not using v3 yet due to compatibility issues
 librosa==0.11.0
 transformers==4.57.3
 hf_xet==1.2.0

@@ -51,20 +51,20 @@ Code for deploying the fine-tuned model to AWS SageMaker is included in the [`sa
 
 ## Download Fine-Tuned Model (Optional)
 
-The Notebooks automatically download the fine-tuned model from Hugging Face Model Hub, but you can also manually download it using the following code:
+The Notebooks automatically download the fine-tuned model from Hugging Face Model Hub, but you can also manually download it to your local cache using the following code:
 
 ```python
 from huggingface_hub import snapshot_download
 
 repo_id="garystafford/wav2vec2-deepfake-voice-detector"
-snapshot_download(repo_id, local_dir="wav2vec2-deepfake-voice-detector")
+snapshot_download(repo_id)
 
 print(f"Model downloaded: {repo_id}")
 ```
 
 ## Download Associated Dataset (Optional)
 
-The dataset used for fine-tuning is available on Hugging Face Datasets Hub. You can download it using the following code:
+The dataset used for fine-tuning is available on Hugging Face Datasets Hub. You can download it to your local cache using the following code:
 
 ```python
 from datasets import load_dataset
