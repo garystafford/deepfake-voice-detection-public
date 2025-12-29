@@ -92,7 +92,7 @@ python3.12 -m pip install -r requirements.txt -Uq
 
 ### Windows
 
-```ini
+```cmd
 py -3.12 -m venv .venv
 .\.venv\Scripts\activate
 # or posh
